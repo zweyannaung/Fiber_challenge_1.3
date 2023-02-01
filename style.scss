@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+$font-family-sans-serif: 'Inter', sans-serif;
+$primary :#4d13d1;
+// $dark : rgb(0, 0, 0);
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.space{
+    letter-spacing: 1px;
+}
+.fix{
+    text-align: justify;
+}
+.aa{
+    height: 550px;
+}
+.myimg{
+    height: 500px;
+}
+@media (max-width: 575.98px) { 
+    .aa{
+        height: 550px;
+    }
+    .myimg{
+        height: 200px;
+        margin-left: 10px;
+    }
+    .bb{
+        width: 80%;
+    }
+ }
